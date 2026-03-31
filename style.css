@@ -1,0 +1,52 @@
+/* style.css */
+
+/* 전체 레이아웃 설정 */
+body {
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+    letter-spacing: -0.025em; /* 산돌고딕 최적의 자간 */
+    color: #1d1d1f;
+    margin: 60px auto;
+    max-width: 900px;
+    padding: 0 30px;
+    background-color: #ffffff;
+    word-break: keep-all;
+}
+
+/* 제목 스타일 */
+h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    letter-spacing: -0.04em;
+    border-bottom: 2px solid #f5f5f7;
+    padding-bottom: 20px;
+}
+
+/* 아카이브 개별 항목 박스 */
+.archive-item {
+    margin-bottom: 60px;
+    transition: transform 0.3s ease;
+}
+
+/* 이미지 스타일 (애플스러운 둥근 모서리와 미세한 그림자) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+/* 텍스트 정보 스타일 */
+.item-info {
+    font-size: 1.05rem;
+    color: #515154;
+    padding-left: 5px;
+}
+
+.label {
+    font-weight: 700;
+    color: #0071e3; /* 애플 강조 블루 색상 */
+    margin-right: 8px;
+}
